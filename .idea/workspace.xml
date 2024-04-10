@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa83b4ff-b07b-4175-810c-d7cf16736a87" name="Changes" comment="Add first view">
+    <list default="true" id="aa83b4ff-b07b-4175-810c-d7cf16736a87" name="Changes" comment="Add second view">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/food/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/food/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/food/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +55,8 @@
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -105,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712781095949</updated>
-      <workItem from="1712781112690" duration="1861000" />
+      <workItem from="1712781112690" duration="2936000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -155,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712782725492</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add second view">
+      <option name="closed" value="true" />
+      <created>1712783006401</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712783006401</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +189,7 @@
     <MESSAGE value="Init3" />
     <MESSAGE value="Add food app" />
     <MESSAGE value="Add first view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add first view" />
+    <MESSAGE value="Add second view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add second view" />
   </component>
 </project>
