@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa83b4ff-b07b-4175-810c-d7cf16736a87" name="Changes" comment="Create First Data Model">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ea4c4c90-4d64-4280-a25b-673820c1aa7a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ea4c4c90-4d64-4280-a25b-673820c1aa7a.xml" afterDir="false" />
+    <list default="true" id="aa83b4ff-b07b-4175-810c-d7cf16736a87" name="Changes" comment="Improve Data Model Item to return name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/food/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +108,7 @@
       <workItem from="1712781112690" duration="3113000" />
       <workItem from="1712934553922" duration="92000" />
       <workItem from="1713019149223" duration="8000" />
-      <workItem from="1713216026210" duration="828000" />
+      <workItem from="1713216026210" duration="1038000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -177,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712784166709</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Improve Data Model Item to return name">
+      <option name="closed" value="true" />
+      <created>1713217039647</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713217039647</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +207,7 @@
     <MESSAGE value="Add first view" />
     <MESSAGE value="Add second view" />
     <MESSAGE value="Create First Data Model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create First Data Model" />
+    <MESSAGE value="Improve Data Model Item to return name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve Data Model Item to return name" />
   </component>
 </project>
