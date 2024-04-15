@@ -1,11 +1,14 @@
 from django.http import HttpResponse
 from django.shortcuts import render
+from food.models import Item
 
 # Create your views here.
 
 
 def index(request):
-    return HttpResponse("Hello, world. Food page is here!")
+
+    items_list = Item.objects.all()
+    return HttpResponse(items_list)
 
 
 def item(request):
