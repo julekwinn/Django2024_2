@@ -1,14 +1,20 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from food.models import Item
+from django.template import loader
+
 
 # Create your views here.
 
 
 def index(request):
-
     items_list = Item.objects.all()
-    return HttpResponse(items_list)
+    temmplate = loader.get_template("food/index.html")
+
+    context = {
+        "items_list": items_list
+    }
+    return render(request, "food/index.html", context)
 
 
 def item(request):
