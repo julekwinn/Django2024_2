@@ -9,4 +9,5 @@ class Item(models.Model):
     item_name = models.CharField(max_length=200)
     item_desc = models.TextField(max_length=200)
     item_price = models.IntegerField()
+    item_image = models.CharField(max_length=500, default="https://w7.pngwing.com/pngs/277/489/png-transparent-fast-food-eating-maps-location-placeholder-pin-icon.png")
 

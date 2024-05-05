@@ -1,8 +1,38 @@
-<ul>
-	{% for item in items_list %}
-
-	<li>
-		<a href="{% url 'detail' item.id %}">{{item.id}} ++ {{item.item_name}}</a>
-	</li>
-	{% endfor %}
-</ul>
+{% extends 'food/base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<!-- Ensure Bootstrap CSS is linked in base.html or here -->
+	</head>
+	<body>
+		{% block body %}
+		<div class="container mt-4">
+			<div class="row">
+				{% for item in items_list %}
+				<div class="col-md-6 col-lg-4 mb-4">
+					<div class="card">
+						<img
+							src="{{ item.item_image }}"
+							class="card-img-top"
+							alt="{{ item.item_name }}" />
+						<div class="card-body">
+							<h5 class="card-title">{{ item.item_name }}</h5>
+							<p class="card-text">{{ item.item_desc }}</p>
+							<p class="card-text">
+								<small class="text-muted">Price: ${{ item.item_price }}</small>
+							</p>
+							<a href="{% url 'food:detail' item.id%}" class="btn btn-succes"
+								>Details</a
+							>
+						</div>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+		{% endblock %}
+	</body>
+</html>
