@@ -1,8 +1,8 @@
-    <ul>
-{% for item in items_list %}
+<ul>
+	{% for item in items_list %}
 
-    <li>
-        {{ item.id }} -- {{ item.item_name }}
-    </li>
-{% endfor %}
-    </ul>
+	<li>
+		<a href="{% url 'detail' item.id %}">{{item.id}} ++ {{item.item_name}}</a>
+	</li>
+	{% endfor %}
+</ul>
