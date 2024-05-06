@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Django's command-line utility for administsfrative tasdskfdshaffhasadffaddfafggffasfdfcvcxstwHGffffdsfaswggftdfdfvvvgfdsggsfsgfgjdavvGHvfjhgjghjavHHvggHggfdfsSHHgdfffggfvv
+"""Django's command-line utility for administsfrative tasdskfdshaffhasadffaddfafggffasfdfcvcxstwHGffffdsfaswggftdfdfvvvgjffdsggsfsgfgjdavvGHvfjhgjghjavHHvggHggfdfsSHHgdfffggfvv
 vvcvvttbvfnmbnmnfdffh."""
 import os
 import sys
