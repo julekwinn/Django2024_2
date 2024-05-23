@@ -22,6 +22,8 @@ from django.urls import path, include
 from django.views.generic import TemplateView
 from users import views as user_views
 from django.contrib.auth import views as auth_views
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     path("admin/", admin.site.urls),
@@ -32,3 +34,8 @@ urlpatterns = [
     path("logout-success/", TemplateView.as_view(template_name='users/logout_success.html'), name="logout_success"),
     path("profile/", user_views.profilepage, name='profile'),
 ]
+
+
+urlpatterns += [
+    # ... the rest of your URLconf goes here ...
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
