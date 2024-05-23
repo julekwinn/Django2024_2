@@ -3,19 +3,32 @@ from django.shortcuts import render, redirect
 from food.models import Item
 from django.template import loader
 from .forms import ItemForm
+from django.views.generic.list import ListView
 
 
 # Create your views here.
 
 
-def index(request):
-    items_list = Item.objects.all()
-    temmplate = loader.get_template("food/index.html")
+# def index(request):
+#     items_list = Item.objects.all()
+#     temmplate = loader.get_template("food/index.html")
 
-    context = {
-        "items_list": items_list
-    }
-    return render(request, "food/index.html", context)
+#     context = {
+#         "items_list": items_list
+#     }
+#     return render(request, "food/index.html", context)
+
+
+
+
+class indexClassView(ListView):
+
+    model = Item
+    template_name = 'food/index.html'
+    context_object_name = 'items_list'
+
+
+
 
 
 def item(request):
