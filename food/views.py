@@ -4,7 +4,7 @@ from food.models import Item
 from django.template import loader
 from .forms import ItemForm
 from django.views.generic.list import ListView
-
+from django.views.generic.detail import DetailView
 
 # Create your views here.
 
@@ -30,17 +30,17 @@ class indexClassView(ListView):
 
 
 
+class FoodDetail(DetailView):
+    model = Item
+    template_name = 'food/index.html'
+
+
+
+
 
 def item(request):
     return HttpResponse("<h1>This is an item page</h1>")
 
-
-def detail(request, item_id):
-    item = Item.objects.get(pk=item_id)
-    context = {
-        'item':item
-    }
-    return render(request,'food/detail.html',context)
 
 def create_item(request):
     form = ItemForm(request.POST or None)
